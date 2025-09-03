@@ -1,12 +1,5 @@
 import React from "react";
-import {
-  FaFacebook,
-  FaInstagram,
-  FaLinkedin,
-  FaGithub,
-  FaTwitter,
-  FaWhatsapp,
-} from "react-icons/fa";
+import { FaLinkedin, FaGithub, FaWhatsapp } from "react-icons/fa";
 // import "tailwindcss/tailwind.css";
 
 const Footer = () => {

@@ -19,7 +19,7 @@ export default async function Home() {
         <div className="mx-auto grid grid-cols-1 md:grid-cols-2 items-center justify-items-center gap-8 px-8 sm:px-16">
           <div className="max-w-md space-y-4">
             <h2 className="text-3xl font-bold tracking-tight md:text-4xl bg-gradient-to-r from-blue-900 to-pink-900 bg-clip-text text-transparent">
-              Welcome to Mustik's Online Fasion Shop
+              Welcome to Mustik Fasion Shop
             </h2>
             <p className="text-slate-900 text-lg">
               discover the latest fashion trends of all types and sizes at the

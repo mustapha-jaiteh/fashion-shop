@@ -1,6 +1,5 @@
 "use client";
 
-import React, { use } from "react";
 import Stripe from "stripe";
 import { useState, useEffect } from "react";
 import { Card, CardContent, CardTitle } from "./ui/card";
@@ -10,7 +9,7 @@ interface Props {
   products: Stripe.Product[];
 }
 
-const carousel = ({ products }: Props) => {
+const Carousel = ({ products }: Props) => {
   const [current, setCurrent] = useState<number>(0);
 
   useEffect(() => {
@@ -51,4 +50,4 @@ const carousel = ({ products }: Props) => {
   );
 };
 
-export default carousel;
+export default Carousel;

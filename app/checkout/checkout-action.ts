@@ -2,9 +2,7 @@
 
 import { stripe } from "@/lib/stripe";
 import { CartItem } from "@/store/cart-store";
-import { Currency } from "lucide-react";
 import { redirect } from "next/navigation";
-import React from "react";
 
 const checkoutAction = async (FormData: FormData): Promise<void> => {
   const itemsJson = FormData.get("items") as string;

@@ -14,7 +14,7 @@ import { Button } from "./ui/button";
 const Navbar = () => {
   const [mobileOpen, setMobileOpen] = useState<boolean>(false);
 
-  const { items, addItem, removeItem, clear } = useCartStore();
+  const { items } = useCartStore();
   const cartCount = items.reduce((acc, item) => acc + item.quantity, 0);
 
   useEffect(() => {
@@ -38,7 +38,7 @@ const Navbar = () => {
           href="/"
           className="text-2xl font-bold bg-gradient-to-r from-blue-900 to-pink-900 bg-clip-text text-transparent"
         >
-          Mustik's Online Fashion Shop
+          Mustik Fashion Shop
         </Link>
 
         <div className="hidden md:flex space-x-6">

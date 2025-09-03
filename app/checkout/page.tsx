@@ -8,7 +8,7 @@ import Image from "next/image";
 import checkoutAction from "./checkout-action";
 
 const CheckoutPage = () => {
-  const { items, addItem, removeItem, clear } = useCartStore();
+  const { items, addItem, removeItem } = useCartStore();
   const totalPrice = items.reduce(
     (acc, item) => acc + item.price * item.quantity,
     0
