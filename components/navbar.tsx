@@ -11,7 +11,7 @@ import {
 import { useCartStore } from "@/store/cart-store";
 import { Button } from "./ui/button";
 
-const navbar = () => {
+const Navbar = () => {
   const [mobileOpen, setMobileOpen] = useState<boolean>(false);
 
   const { items, addItem, removeItem, clear } = useCartStore();
@@ -114,4 +114,4 @@ const navbar = () => {
   );
 };
 
-export default navbar;
+export default Navbar;
